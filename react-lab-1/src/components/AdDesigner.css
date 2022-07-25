@@ -1,0 +1,44 @@
+.AdDesigner-Header {
+  font-family: "Caveat", cursive;
+}
+.vote-box {
+  border: 2px solid black;
+  width: 200px;
+  height: 100px;
+  box-shadow: 3px 3px 5px lightgray;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 200px;
+  height: 100px;
+  box-shadow: 3px 3px 5px lightgray;
+}
+
+.vote-for {
+  display: flex;
+  justify-content: center;
+}
+
+.flavor-font {
+  font-family: "Caveat", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #0e3c7e;
+  color: white;
+  padding: 7px 17px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 2px 2px 2px lightgray;
+}
+button:disabled {
+  background-color: gray;
+}
+button:active {
+  background-color: #1e60a9;
+}

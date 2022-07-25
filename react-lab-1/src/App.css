@@ -1,0 +1,26 @@
+.App {
+  font: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 15px 10px;
+}
+
+@media screen and (min-width: 680px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  }
+  .ad-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+  }
+}
